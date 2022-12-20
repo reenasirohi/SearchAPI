@@ -1,0 +1,29 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome To Search API User Interface</h1>
+
+</div>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    
+<br /><br />
+    <input type="text" id="txtSearch" placeholder="Enter Search Text" />
+    <button id="btnSearch">Search</button>
+    <div id="userData"></div>
+    <label id="lblMessage"></label>
+    <table id="table">
+        <thead>
+            <tr>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Email</th>
+                <th>Gender</th>
+            </tr>
+        </thead>
+    </table>
